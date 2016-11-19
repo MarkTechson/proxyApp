@@ -7,6 +7,7 @@
  */
 var express = require('express');
 var bodyParser = require('body-parser');
+var cors = require('cors');
 var fetch = require('node-fetch');
 
 var app = express();
@@ -16,6 +17,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 // Add some middle wear that'll make life easier
 app.use(bodyParser.json());
+
+// Allow cors so we can actually access the endpoint!
+app.use(cors);
 
 // define a route for this application
 app.get('/', function (req, res) {
