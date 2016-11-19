@@ -1,0 +1,28 @@
+{
+  "name": "proxyApp",
+  "version": "1.0.0",
+  "description": "Template for making a proxied call",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.9.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "4.13.3",
+    "node-fetch": "^1.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkTechson/proxyApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkTechson/proxyApp/issues"
+  },
+  "homepage": "https://github.com/MarkTechson/proxyApp#readme"
+}
