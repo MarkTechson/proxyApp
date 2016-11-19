@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // Allow cors so we can actually access the endpoint!
-app.use(cors);
+app.use(cors());
 
 // define a route for this application
 app.get('/', function (req, res) {
